@@ -1,0 +1,30 @@
+.input {
+    height: 50px;
+    width: 30%;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background: none;
+    border: none;
+    margin-left: 12px;
+    flex: 1;
+}
+
+/* to remove blue outline when clicking the input bar */
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-right: 8px;
+    background-color: #fdfd96;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+}
